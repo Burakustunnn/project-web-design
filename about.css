@@ -19,6 +19,9 @@ body {
   width: 100%;
   border-bottom: 3px solid #a9508b;
 }
+#active:visited{
+  color: #a9508b;
+}
 .header .header__div--left {
   display: flex;
   flex-wrap: wrap;
