@@ -51,7 +51,7 @@ body {
 }
 /* ***************MAİN*********** */
 main {
-    height: 650px;
+    height: 984px;
     display: flex;
     justify-content: space-between;  
 }
@@ -125,9 +125,10 @@ main .main__rigth {
   padding: 0.8rem;
 }
 
+
 /* *********SECTİON******** */
 
-section {
+/* section {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -144,7 +145,7 @@ section h3 {
 .section__div--middel,
 .section__div--rigth {
   padding: 25px 0px;
-}
+} */
 
 /* *********FOOTER********** */
 footer {

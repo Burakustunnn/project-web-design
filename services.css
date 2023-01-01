@@ -7,7 +7,7 @@ body {
   width: 100%;
   height: 100%;
 }
-/* ********HEADER********* */
+/* *************************************HEADER******************** */
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -39,46 +39,64 @@ body {
   flex-wrap: wrap;
   justify-content: end;
   gap: 25px;
-  
-
 }
-.header__nav--rigth a:hover{
-    outline: 5px inset gray;
-    outline-offset: 7px;
-    outline-width: 7px;
-    transform: rotate(5deg); 
-
+.header__nav--rigth a:hover {
+  outline: 5px inset gray;
+  outline-offset: 7px;
+  outline-width: 7px;
+  transform: rotate(5deg);
 }
-/* ***************MAİN*********** */
+/* ***********************************MAİN********************* */
 main {
-    height: 650px;
-    display: flex;  
-    flex-wrap: wrap; 
-    width: 100%;
-    justify-content: space-between ; 
-}
-.main__div--left{
-    display: flex;   
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 50px;
-    flex-grow: 1;
-    gap: 1rem;
-   
-}
-.main__div--rigth{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 50px;
-    flex-grow: 1; 
-    background-color: #35424a;
-}
-.main_div_rigth-name-input,.main_div_rigth-email-input,.main_div_rigth-message-input{
-    display: flex;
-    flex-direction: column;}
+  height: 984px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 
-/* **********ASİDE********* */
+  justify-content: space-around ; 
+}
+.main__div--left {
+  display: flex;
+  flex-direction: column;  
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 25px;
+  height: auto;
+  
+}
+.main_div_left-start,
+.main_div_left-middle,
+.main_div_left-end {
+  background-color: #e6e6e6;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.main__div--left h4 {
+  font-size: 2rem;
+}
+.main__div--left p {
+  font-size: 1.4rem;
+}
+.main__div--rigth {
+  display: flex;
+  flex-direction: column;  
+  margin: 25px;
+  padding: 25px;
+  background-color: #35424a;
+  height: 250px;
+  width: 500px;
+}
+
+.main_div_rigth-name-input,
+.main_div_rigth-email-input,
+.main_div_rigth-message-input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+ 
+}
+
+/* ***********************************ASİDE***************************** */
 .aside {
   width: 100%;
   display: flex;
@@ -92,9 +110,9 @@ main {
 .aside .aside__div-input-button {
   margin: 0 5rem;
 }
-.aside p{
-    color:white;
-    font-size: 1.5rem;
+.aside p {
+  color: white;
+  font-size: 1.5rem;
 }
 .aside__div-input-button input {
   margin-right: 0.1rem;
@@ -102,39 +120,18 @@ main {
   border: 1px solid #e8491d;
 }
 .aside__div-input-button > button {
+  flex-wrap: wrap;
   background-color: #e8491d;
   color: aliceblue;
   border: none;
   padding: 0.8rem;
 }
-
-/* *********SECTİON******** */
-
-section {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-section p,
-section h3 {
-  width: 150px;
-  height: 100%;
-}
-.section__div--letf,
-.section__div--middel,
-.section__div--rigth {
-  padding: 25px 0px;
-}
-
-/* *********FOOTER********** */
-footer {
+/* *******************************************FOOTER************************ */
+footer {  
   padding: 15px;
   background-color: #35424a;
   text-align: center;
   color: aliceblue;
+  height: ;
+
 }
-
-
