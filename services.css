@@ -49,6 +49,7 @@ body {
 /* ***********************************MAİN********************* */
 main {
   height: 984px;
+  /* height: auto; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -83,7 +84,7 @@ main {
   margin: 25px;
   padding: 25px;
   background-color: #35424a;
-  height: 250px;
+  height: 350px;
   width: 500px;
 }
 
@@ -93,8 +94,22 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
- 
+  
 }
+.main__div--rigth h4, .main__div--rigth label, .main__div--rigth input{
+  margin-top: 10px;
+  color: #e6e6e6;
+}
+.main__div--rigth button{
+  width: 10rem;
+  background-color: #e8491d;
+  border: none;
+  height: 2rem;
+  color: aliceblue;
+  margin-top: 5px;
+
+}
+
 
 /* ***********************************ASİDE***************************** */
 .aside {
@@ -132,6 +147,4 @@ footer {
   background-color: #35424a;
   text-align: center;
   color: aliceblue;
-  height: ;
-
 }
